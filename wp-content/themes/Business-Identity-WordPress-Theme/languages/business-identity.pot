@@ -1,0 +1,984 @@
+# Copyright (C) 2015 Professional Themes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Identity 3.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/business-identity\n"
+"POT-Creation-Date: 2015-03-14 03:15:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:24
+msgid "Page Not Found"
+msgstr ""
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:46 comments.php:71
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:49 comments.php:74
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:52 comments.php:77
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:89
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:33 inc/theme-setup.php:105
+msgid "Secondary Menu"
+msgstr ""
+
+#: footer.php:50
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:50
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:52
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: header.php:32
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:85
+msgid "Menu"
+msgstr ""
+
+#: image.php:33
+msgid "Upload Date: "
+msgstr ""
+
+#: image.php:40
+msgid "Full Size Image Dimensions: "
+msgstr ""
+
+#: image.php:48
+msgid "Image Parent Post: "
+msgstr ""
+
+#. translators: If there are characters in your language that are not
+#. supported,
+#. 		 * by Lato, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/custom-fonts.php:26
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. 		 * by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/custom-fonts.php:55
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional Open Sans character subset specific to
+#. your language,
+#. 			 * translate this to 'greek', 'cyrillic' or 'vietnamese'. Do not
+#. translate into your own language.
+#: inc/custom-fonts.php:61
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: inc/customizer/core.php:27
+msgid "Site Title"
+msgstr ""
+
+#: inc/customizer/core.php:28
+msgid ""
+"The header of Business Identity was designed to include the site title, "
+"navigation menu, and website search input. Use this section to customize "
+"your website title. If you hide your website title, then the navigation menu "
+"will expand to fill the remaining space of your website header."
+msgstr ""
+
+#: inc/customizer/core.php:29
+msgid "Display Site Title"
+msgstr ""
+
+#: inc/customizer/core.php:30
+msgid "Site Title Color"
+msgstr ""
+
+#: inc/customizer/core.php:31
+msgid ""
+"The header image will be displayed above all website content, including the "
+"website title and navigation menu."
+msgstr ""
+
+#: inc/customizer/core.php:32
+msgid ""
+"The background image will only be displayed when the website is in slim "
+"layout mode."
+msgstr ""
+
+#: inc/customizer/core.php:33
+msgid ""
+"Business Identity supports 2 menus. Select which menu appears in each "
+"location. You can edit your menu content on the Menus screen in the "
+"Appearance section. The Primary Menu will be displayed at the top of your "
+"website near the website title, and the Secondary Menu will be displayed in "
+"the footer area of your website."
+msgstr ""
+
+#: inc/customizer/core.php:34
+msgid ""
+"The magic of Business Identity really shines when you create and configure a "
+"<a href=\"http://en.support.wordpress.com/pages/front-page/\">Static Front "
+"Page</a> for your website. <strong>It is highly recommended to create and "
+"set up your front page and posts page first</strong>, so that you will be "
+"able to more effectively make use of the configuration options available to "
+"you in your website customizer."
+msgstr ""
+
+#: inc/customizer/features.php:20
+msgid "Features and Services Button Text"
+msgstr ""
+
+#: inc/customizer/features.php:36
+msgid "Features and Services Label"
+msgstr ""
+
+#: inc/customizer/features.php:51
+msgid "Features and Services Page"
+msgstr ""
+
+#: inc/customizer/flourish.php:22
+msgid "Flourish"
+msgstr ""
+
+#: inc/customizer/flourish.php:40
+msgid "Display flourish on all pages"
+msgstr ""
+
+#: inc/customizer/instructions/flourish.php:24
+msgid ""
+"Add an additional flourish image into your website home page by navigating "
+"to the <em>Home Page</em> section of the Customizer. The flourish will "
+"appear on your home page near your website footer, just above your footer "
+"widgets and just below your home page widgets."
+msgstr ""
+
+#: inc/customizer/jetpack.php:42
+msgid ""
+"Add a logo to the left of your website title. The maximum display size of "
+"your logo will be %1$s pixels wide by %2$s pixels tall."
+msgstr ""
+
+#: inc/customizer/jetpack.php:48
+msgid "Featured Website Content"
+msgstr ""
+
+#: inc/customizer/jetpack.php:49
+msgid ""
+"Easily feature a set of blog posts or static pages on your front page using "
+"any existing <a href=\"%1$s\">tag</a> of your choice."
+msgstr ""
+
+#: inc/customizer/jetpack.php:52
+msgid "Hide in tag clouds and post meta."
+msgstr ""
+
+#: inc/customizer/jetpack.php:53
+msgid ""
+"When this option is checked, the tag that you have chosen for your featured "
+"content area will not be shown in your blog post tag list or within tag "
+"clouds throughout your website. If this option is not checked, the tag you "
+"enter will be treated like any other tag on your website."
+msgstr ""
+
+#: inc/customizer/jetpack.php:54
+msgid ""
+"By default featured content will only be included on your front page. Select "
+"this option to show your featured content in all post listings."
+msgstr ""
+
+#: inc/customizer/jetpack.php:86
+msgid "Design"
+msgstr ""
+
+#: inc/customizer/jetpack.php:87
+msgid ""
+"Choose from either a carousel view (Slider), grid view (Mosaic), or super-"
+"wide view (Full Screen) for your featured home page posts and make them "
+"shine."
+msgstr ""
+
+#: inc/customizer/jetpack.php:91
+msgid "Slider (Default)"
+msgstr ""
+
+#: inc/customizer/jetpack.php:92
+msgid "Mosaic"
+msgstr ""
+
+#: inc/customizer/jetpack.php:93
+msgid "Full Screen"
+msgstr ""
+
+#: inc/customizer/jetpack.php:109
+msgid "Quantity"
+msgstr ""
+
+#: inc/customizer/jetpack.php:110
+msgid ""
+"Choose the number of featured posts that you would like to show on your "
+"website home page. These will either be displayed in a slider, mosaic, or "
+"full screen view depending on which Design option you choose for your "
+"featured content."
+msgstr ""
+
+#: inc/customizer/jetpack.php:114 inc/customizer/recent-posts.php:26
+msgid "1"
+msgstr ""
+
+#: inc/customizer/jetpack.php:115 inc/customizer/recent-posts.php:27
+msgid "2"
+msgstr ""
+
+#: inc/customizer/jetpack.php:116
+msgid "3 (Default)"
+msgstr ""
+
+#: inc/customizer/jetpack.php:117 inc/customizer/recent-posts.php:29
+msgid "4"
+msgstr ""
+
+#: inc/customizer/jetpack.php:118 inc/customizer/recent-posts.php:30
+msgid "5"
+msgstr ""
+
+#: inc/customizer/jetpack.php:119
+msgid "6"
+msgstr ""
+
+#: inc/customizer/jetpack.php:120 inc/customizer/recent-posts.php:32
+msgid "7"
+msgstr ""
+
+#: inc/customizer/jetpack.php:121 inc/customizer/recent-posts.php:33
+msgid "8"
+msgstr ""
+
+#: inc/customizer/jetpack.php:122 inc/customizer/recent-posts.php:34
+msgid "9"
+msgstr ""
+
+#: inc/customizer/jetpack.php:123 inc/customizer/recent-posts.php:35
+msgid "10"
+msgstr ""
+
+#: inc/customizer/jetpack.php:124 inc/customizer/recent-posts.php:36
+msgid "11"
+msgstr ""
+
+#: inc/customizer/jetpack.php:125 inc/customizer/recent-posts.php:37
+msgid "12"
+msgstr ""
+
+#: inc/customizer/jetpack.php:141
+msgid "Randomize Featured Content"
+msgstr ""
+
+#: inc/customizer/jetpack.php:142
+msgid ""
+"By default Featured Content will show in chronological order across your "
+"site. Click this option to randomize its order."
+msgstr ""
+
+#: inc/customizer/jetpack.php:159
+msgid "Text Alignment"
+msgstr ""
+
+#: inc/customizer/jetpack.php:163
+msgid "Left (Default)"
+msgstr ""
+
+#: inc/customizer/jetpack.php:164 inc/customizer/site-top-content.php:42
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/jetpack.php:165
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/jetpack.php:166 inc/customizer/site-top-content.php:44
+msgid "Justify"
+msgstr ""
+
+#: inc/customizer/jetpack.php:183
+msgid "Slideshow Mode"
+msgstr ""
+
+#: inc/customizer/jetpack.php:184
+msgid ""
+"By default your Featured Content slider will show custom text on top of it. "
+"If you would instead like to display clickable slideshow images, select this "
+"option."
+msgstr ""
+
+#: inc/customizer/jetpack.php:201
+msgid "Speed"
+msgstr ""
+
+#: inc/customizer/jetpack.php:202
+msgid ""
+"Choose between a manual, slow, normal, and fast transition between your "
+"slides."
+msgstr ""
+
+#: inc/customizer/jetpack.php:206
+msgid "Manual (Default)"
+msgstr ""
+
+#: inc/customizer/jetpack.php:207
+msgid "Slow"
+msgstr ""
+
+#: inc/customizer/jetpack.php:208
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer/jetpack.php:209
+msgid "Fast"
+msgstr ""
+
+#: inc/customizer/jetpack.php:228
+msgid "Testimonials Page Title"
+msgstr ""
+
+#: inc/customizer/jetpack.php:229
+msgid "Testimonials Page Content"
+msgstr ""
+
+#: inc/customizer/jetpack.php:230
+msgid "Testimonials Page Featured Image"
+msgstr ""
+
+#: inc/customizer/jetpack.php:231
+msgid "Customer Testimonials"
+msgstr ""
+
+#: inc/customizer/jetpack.php:232
+msgid ""
+"<em>Business Identity</em> supports customer testimonials, which are very "
+"easy to set up. Go to <em>Testimonials &rarr; Add New</em>, and that&#8217;s "
+"all there is to it. Testimonials will show on your <a href=\"http://"
+"businessidentitydemo.wordpress.com/docs/front-page-template/\">home page</a> "
+"and also have <a href=\"http://businessidentitydemo.wordpress.com/"
+"testimonial/\">special archive</a> views available."
+msgstr ""
+
+#: inc/customizer/jetpack.php:241
+msgid "What Our Customers Think"
+msgstr ""
+
+#: inc/customizer/jetpack.php:248
+msgid "Testimonials Section Heading"
+msgstr ""
+
+#: inc/customizer/jetpack.php:249
+msgid "(Displayed on the static front page of your site.)"
+msgstr ""
+
+#: inc/customizer/jetpack.php:267
+msgid "Randomize Front Page Testimonials"
+msgstr ""
+
+#: inc/customizer/jetpack.php:268
+msgid ""
+"By default Testimonials will show in chronological order on the front page "
+"of your site. Click this option in order to randomize their order."
+msgstr ""
+
+#: inc/customizer/layout.php:36
+msgid "Site Width"
+msgstr ""
+
+#: inc/customizer/layout.php:39
+msgid "Wide (Default)"
+msgstr ""
+
+#: inc/customizer/layout.php:40
+msgid "Slim"
+msgstr ""
+
+#: inc/customizer/layout.php:43
+msgid ""
+"Business Identity supports a wide layout (default) and a slim layout. Use "
+"this option to choose how you would like Business Identity to be displayed "
+"on your website."
+msgstr ""
+
+#: inc/customizer/layout.php:63
+msgid "Default Sidebar Position"
+msgstr ""
+
+#: inc/customizer/layout.php:66 inc/customizer/site-top-content.php:43
+msgid "Right (Default)"
+msgstr ""
+
+#: inc/customizer/layout.php:67 inc/customizer/site-top-content.php:41
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/layout.php:70
+msgid ""
+"By default the Business Identity theme will show the primary sidebar on the "
+"right side of your website. Use this setting to change the default sidebar "
+"position to the left side of your website."
+msgstr ""
+
+#: inc/customizer/layout.php:90
+msgid "Hide page breadcrumbs"
+msgstr ""
+
+#: inc/customizer/layout.php:91
+msgid ""
+"By default breadcrumbs are shown on all pages. Select this option to turn "
+"them off."
+msgstr ""
+
+#: inc/customizer/layout.php:113
+msgid "Blog Content"
+msgstr ""
+
+#: inc/customizer/layout.php:116
+msgid "Excerpt (Default)"
+msgstr ""
+
+#: inc/customizer/layout.php:117
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/layout.php:120
+msgid ""
+"Use this setting to determine whether excerpts or full content will show on "
+"your blog index and archive pages."
+msgstr ""
+
+#: inc/customizer/recent-posts.php:20
+msgid "Recent Posts Quantity"
+msgstr ""
+
+#: inc/customizer/recent-posts.php:21
+msgid ""
+"Choose the number of recent posts that you would like to show on your static "
+"front page."
+msgstr ""
+
+#: inc/customizer/recent-posts.php:25
+msgid "0"
+msgstr ""
+
+#: inc/customizer/recent-posts.php:28
+msgid "3"
+msgstr ""
+
+#: inc/customizer/recent-posts.php:31
+msgid "6 (Default)"
+msgstr ""
+
+#: inc/customizer/recent-posts.php:45 template-parts/blog-front-page.php:58
+msgid "Our Blog"
+msgstr ""
+
+#: inc/customizer/recent-posts.php:52
+msgid "Recent Posts Label"
+msgstr ""
+
+#: inc/customizer/recent-posts.php:61 template-parts/blog-front-page.php:59
+msgid "Latest Updates"
+msgstr ""
+
+#: inc/customizer/recent-posts.php:68
+msgid "Recent Posts Section Title"
+msgstr ""
+
+#: inc/customizer/recent-posts.php:77 template-parts/blog-front-page.php:60
+msgid "View Blog"
+msgstr ""
+
+#: inc/customizer/recent-posts.php:84
+msgid "Recent Posts Button Text"
+msgstr ""
+
+#: inc/customizer/search.php:20
+msgid "Display search box in site header."
+msgstr ""
+
+#: inc/customizer/search.php:23
+msgid ""
+"If you would like to include a search box in your site navigation in desktop "
+"views, simply click this option. The search input box will always be visible "
+"to mobile visitors for easier navigation throughout your website."
+msgstr ""
+
+#: inc/customizer/site-top-content.php:21
+msgid "Site Top Content"
+msgstr ""
+
+#: inc/customizer/site-top-content.php:25
+msgid ""
+"Add content into the top of your website, like business contact information "
+"or special announcements."
+msgstr ""
+
+#: inc/customizer/site-top-content.php:38
+msgid "Site Top Content Alignment"
+msgstr ""
+
+#: inc/customizer/special-offer.php:20
+msgid "Special Offer Label"
+msgstr ""
+
+#: inc/customizer/special-offer.php:36
+msgid "Special Offer Text"
+msgstr ""
+
+#: inc/customizer/special-offer.php:52
+msgid "Call to Action Title"
+msgstr ""
+
+#: inc/customizer/special-offer.php:68
+msgid "Call to Action Link"
+msgstr ""
+
+#: inc/customizer/team.php:22
+msgid "Display Team Section"
+msgstr ""
+
+#: inc/customizer/team.php:31 template-parts/team-front-page.php:35
+#: template-parts/team-front-page.php:125
+msgid "People Involved"
+msgstr ""
+
+#: inc/customizer/team.php:38
+msgid "Team Label"
+msgstr ""
+
+#: inc/customizer/team.php:47 template-parts/team-front-page.php:36
+#: template-parts/team-front-page.php:126
+msgid "The Team"
+msgstr ""
+
+#: inc/customizer/team.php:54
+msgid "Team Section Title"
+msgstr ""
+
+#: inc/customizer.php:41
+msgid "Website Layout"
+msgstr ""
+
+#: inc/extras/search.php:23 inc/extras/search.php:24
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/extras/search.php:24
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: inc/extras/search.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/extras/wp-title.php:40
+msgid "Page %s"
+msgstr ""
+
+#: inc/jetpack/testimonials.php:78
+msgid "Testimonials"
+msgstr ""
+
+#: inc/scripts.php:54
+msgid "Previous Slide"
+msgstr ""
+
+#: inc/scripts.php:55
+msgid "Next Slide"
+msgstr ""
+
+#: inc/scripts.php:56
+msgid "Slide"
+msgstr ""
+
+#: inc/template-tags/archives.php:29
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags/archives.php:31
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags/archives.php:33
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags/archives.php:35
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags/archives.php:35
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags/archives.php:37
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags/archives.php:37
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags/archives.php:39
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags/archives.php:39
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags/archives.php:41
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags/archives.php:43
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags/archives.php:45
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags/archives.php:47
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags/archives.php:49
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags/archives.php:51
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags/archives.php:53
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags/archives.php:55
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags/archives.php:57
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags/archives.php:59
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags/archives.php:63
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags/archives.php:65
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags/breadcrumbs.php:48
+msgid "Website Breadcrumbs"
+msgstr ""
+
+#: inc/template-tags/breadcrumbs.php:54
+msgid "Home"
+msgstr ""
+
+#: inc/template-tags/entry-meta.php:24
+msgid ""
+"<div class=\"date-inner\"><span class=\"posted-on\">%1$s</span><span class="
+"\"byline\"> by %2$s</span></div>"
+msgstr ""
+
+#: inc/template-tags/navigation.php:27
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags/navigation.php:31
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags/navigation.php:36
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags/navigation.php:54
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags/navigation.php:57
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: inc/template-tags/navigation.php:58
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags/social-profiles.php:83
+msgctxt "1: User Name, 2: Service Name (Facebook, Twitter, ...)"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: inc/theme-setup.php:104
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/widgets.php:17
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/widgets.php:19
+msgid ""
+"This sidebar appears on most pages throughout your website. Simply add any "
+"Available Widgets into this space in order to turn the sidebar on. Removing "
+"all widgets from this primary sidebar will automatically turn the sidebar "
+"off."
+msgstr ""
+
+#: inc/widgets.php:28
+msgid "Website Footer"
+msgstr ""
+
+#: inc/widgets.php:30
+msgid ""
+"Enhance your website with footer widgets that include more details about "
+"your business, like its phone number, physical address, email address, or "
+"social media links. This website footer will appear on every page of your "
+"website."
+msgstr ""
+
+#. #-#-#-#-#  business-identity.pot (Business Identity 3.0.0)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/widgets.php:39
+#: wp-content/themes/premium/business-identity/page-templates/front-page.php
+msgid "Front Page"
+msgstr ""
+
+#: inc/widgets.php:41
+msgid ""
+"Widgets added into this space will be used on your static front page, which "
+"can be set from within the Customizer. If no custom front page is used then "
+"this widget area will automatically be disabled."
+msgstr ""
+
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single-jetpack-testimonial.php:29
+msgid "Testimonial"
+msgstr ""
+
+#: template-parts/blog-front-page.php:103
+msgid "Continue Reading"
+msgstr ""
+
+#: template-parts/content-image-attachment.php:34
+#: template-parts/content-page.php:53 template-parts/content.php:71
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-image-attachment.php:42
+#: template-parts/content-page.php:59
+#: template-parts/content-testimonial.php:26 template-parts/content.php:115
+#: template-parts/features-front-page.php:91
+#: template-parts/hero-front-page.php:34
+msgid "Edit"
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:32
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:40
+msgid ""
+"The archive page that you are looking for cannot be found. Please return to "
+"the home page or use the search form below to find what you are looking for."
+msgstr ""
+
+#: template-parts/content-none.php:48
+msgid "The page you are looking for has either been removed or relocated."
+msgstr ""
+
+#: template-parts/content-none.php:53
+msgid ""
+"Please return to the <a href=\"%1$s\" rel=\"home\">home page</a> or use the "
+"search form below to find what you are looking for."
+msgstr ""
+
+#: template-parts/content-page.php:46 template-parts/content-page.php:49
+#: template-parts/content.php:67
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content.php:20
+msgid "Featured"
+msgstr ""
+
+#: template-parts/content.php:29
+msgid "Bookmark"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/content.php:84 template-parts/content.php:94
+msgid ", "
+msgstr ""
+
+#: template-parts/content.php:107
+msgid "Leave a comment"
+msgstr ""
+
+#: template-parts/content.php:108
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/content.php:109
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/features-front-page.php:84
+msgid "View All Features"
+msgstr ""
+
+#: template-parts/features-front-page.php:113
+msgid "Features and Services"
+msgstr ""
+
+#: template-parts/features-front-page.php:116
+msgid "The title of your features page will go here."
+msgstr ""
+
+#: template-parts/features-front-page.php:120
+msgid ""
+"Creating a Features &amp; Services home page section is easy. Simply add a "
+"new page, then navigate to the Customizer and choose the page you created "
+"from the drop-down menu in the <em>Home</em> section. Any kind of content "
+"can be used in this section of your home page, and the content layout of "
+"this area is entirely controlled by you."
+msgstr ""
+
+#: template-parts/features-front-page.php:123
+msgid "Call to Action"
+msgstr ""
+
+#: template-parts/special-offer-front-page.php:54
+msgid ""
+"Create your special offer banner by navigating to the <em>Home</em> section "
+"of the Customizer. The banner can include a small label, large promotional "
+"text, and a call to action button that links to any location of your "
+"choosing. If you would like to exclude this banner from your home page, "
+"simply turn it off."
+msgstr ""
+
+#: template-parts/team-front-page.php:109
+#: template-parts/team-front-page.php:132
+msgid ""
+"This section of your home page is used to display team members who have at "
+"least one published post on your website. The author avatar, name, and "
+"description are all able to be configured on your user settings page."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: wp-content/themes/premium/business-identity/style.css
+msgid "Business Identity"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#: wp-content/themes/premium/business-identity/style.css
+msgid "http://businessidentitydemo.wordpress.com"
+msgstr ""
+
+#. Description of the plugin/theme
+#: wp-content/themes/premium/business-identity/style.css
+msgid ""
+"Showcase your business, connect with your customers, and make a strong and "
+"professional impact on the web with Business Identity. Featuring custom logo "
+"and site layout functionality, a beautiful home page template, and customer "
+"testimonials, Business Identity is the right choice for your online brand."
+msgstr ""
+
+#. Author of the plugin/theme
+#: wp-content/themes/premium/business-identity/style.css
+msgid "Professional Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/premium/business-identity/style.css
+msgid "http://professionalthemes.nyc/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/premium/business-identity/page-templates/alternate-sidebar-page.php
+msgid "Alternate Sidebar Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/premium/business-identity/page-templates/contributors.php
+msgid "Contributors"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/premium/business-identity/page-templates/featured-content.php
+msgid "Featured Content"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/premium/business-identity/page-templates/full-width.php
+msgid "Full-width, no sidebar"
+msgstr ""

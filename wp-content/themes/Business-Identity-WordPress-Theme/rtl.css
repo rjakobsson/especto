@@ -1,0 +1,18 @@
+/**
+ * The RTL styles for Business Identity have been put inside of
+ * style.css with .rtl prepended in front of the corresponding RTL rules.
+ *
+ * The reasons for this are as follows:
+ *
+ * 1. One less server hit when RTL sites are active, thus better performance.
+ * 2. Putting RTL overrides into a separate file is an organizational nightmare,
+ *	  and incredibly difficult to maintain.
+ * 3. Adopting a practice of overriding styles with RTL rules within style.css
+ *	  reduces the out of sight, out of mind problem of updates and fixes
+ *	  where corresponding RTL overrides are forgotten.
+ * 4. There does not appear to be a significant justification for putting RTL rules
+ *	  into their own file when simply using .rtl (body-provided) in front of rules
+ *	  as overrides will suffice.
+ *
+ * To learn more about RTL, visit the WordPress.org Codex: https://codex.wordpress.org/Right-to-Left_Language_Support
+ */

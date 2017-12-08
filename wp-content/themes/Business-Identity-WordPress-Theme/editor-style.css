@@ -1,0 +1,627 @@
+/**
+ * Theme Name: Business Identity
+ *
+ * Description: Used to style the TinyMCE editor.
+ *
+ * @since Business Identity 1.0
+ */
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html { /* Editor iframe */
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	background: #fefefe;
+	font-size: 16px;
+	overflow-y: scroll !important;
+}
+html body.mceContentBody { /* iframe Body Class */
+	background: #fff;
+	-moz-box-shadow:    0 0 3px 1px rgba( 0, 0, 0, .05 );
+	-webkit-box-shadow: 0 0 3px 1px rgba( 0, 0, 0, .05 );
+	box-shadow:         0 0 3px 1px rgba( 0, 0, 0, .05 );
+	color: #595959;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 0;
+	max-width: 830px;
+	overflow-x: hidden !important;
+	padding: 30px !important;
+}
+html .mceContentBody.rtl { /* RTL */
+	direction: rtl;
+	unicode-bidi: embed;
+}
+article,
+aside,
+details,
+embed,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+ruby,
+section,
+summary {
+	display: block;
+}
+figure {
+	margin: 0;
+	max-width: 100%;
+}
+a {
+	color: #7b65c7;
+}
+a:visited {
+	color: #615589;
+}
+h1, h1 a,
+h2, h2 a,
+h3, h3 a,
+h4, h4 a,
+h5, h5 a,
+h6, h6 a {
+	clear: both;
+	font-weight: 400;
+	line-height: 1.25;
+}
+h1 {
+	font-size: 28px;
+}
+h2 {
+	font-size: 25px;
+}
+h3 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 19px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 15px;
+}
+ul {
+	list-style: disc;
+}
+ul ul {
+	list-style: circle;
+}
+ul ul ul {
+	list-style: disc;
+}
+ul ul ul ul {
+	list-style: circle;
+}
+ul ul ul ul ul {
+	list-style: disc;
+}
+ol {
+	list-style: decimal;
+}
+ol ol {
+	list-style: upper-alpha;
+}
+ol ol ol {
+	list-style: upper-roman;
+}
+ol ol ol ol {
+	list-style: lower-alpha;
+}
+ol ol ol ol ol {
+	list-style: lower-roman;
+}
+code,
+kbd,
+pre,
+var,
+samp,
+tt {
+	background: rgba( 0, 0, 0, .05 );
+	font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+	font-size: 15px;
+	font-style: normal;
+	tab-size: 3;
+	-moz-tab-size: 3;
+	-o-tab-size: 3;
+}
+pre code {
+	background: none;
+}
+pre {
+	overflow: auto;
+	padding: 8px 12px;
+}
+big,
+small {
+	display: inline-block;
+}
+big {
+	font-size: 20px;
+}
+small {
+	font-size: 15px;
+}
+dt {
+	font-style: italic;
+}
+b,
+strong,
+address:first-line,
+dt {
+	font-weight: 400;
+}
+address:first-line {
+	font-style: normal;
+}
+del,
+s,
+strike {
+	color: rgba( 0, 0, 0, .3 );
+}
+ins {
+	border-bottom: 1px solid rgba( 0, 0, 0, .1 );
+	text-decoration: none;
+}
+table,
+td,
+th,
+caption {
+	border: 1px solid rgb( 250, 250, 250 );
+}
+table {
+	border-collapse: collapse;
+	clear: both;
+	width: 100%;
+}
+td,
+th,
+caption {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 10px;
+}
+th {
+	font-weight: 400;
+}
+caption {
+	border-bottom: none;
+}
+hr {
+	background: rgba( 0, 0, 0, .05 );
+	border: none;
+	clear: both;
+	margin: 24px 0 23px;
+	height: 1px;
+	width: 100%;
+}
+dfn {
+	font-style: italic;
+}
+blockquote {
+	padding: 24px;
+	border-left: 1px solid rgba( 0, 0, 0, .1 );
+}
+.rtl blockquote {
+	border-left: none;
+	border-right: 1px solid rgba( 0, 0, 0, .1 );
+}
+blockquote blockquote {
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	margin: 0;
+}
+blockquote p:first-child {
+	margin-top: 0;
+}
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6,
+p,blockquote,
+ul,ol,dl, table,
+address, pre {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+table {
+	margin-bottom: 24px;
+}
+li > ul,
+li > ol {
+	margin: 0;
+}
+ul,
+ol {
+	padding: 0 0 0 28px;
+}
+.rtl ul,
+.rtl ol {
+	padding: 0 28px 0 0;
+}
+ol ul,
+ul ul {
+	padding: 0 0 0 18px;
+}
+.rtl ol ul,
+.rtl ul ul {
+	padding: 0 18px 0 0;
+}
+ul ol,
+ol ol {
+	padding: 0 0 0 22px;
+}
+.rtl ul ol,
+.rtl ol ol {
+	padding: 0 22px 0 0;
+}
+dd {
+	margin: 0 0 0 28px;
+}
+.rtl dd {
+	margin: 0 28px 0 0;
+}
+
+/**
+ * 28.0 - Media Elements and Embeds
+ */
+audio,
+canvas,
+progress,
+video {
+	display: inline-block; /* Correct `inline-block` display not defined in IE 8/9 */
+	vertical-align: baseline; /* Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera. */
+}
+audio:not([controls]) {
+	display: none; /* Prevent modern browsers from displaying `audio` without controls */
+	height: 0; /* Remove excess height in iOS 5 devices. */
+}
+svg:not(:root) {
+	overflow: hidden; /* Correct overflow not hidden in IE 9/10/11. */
+}
+audio,
+canvas,
+embed,
+iframe,
+object,
+video {
+	clear: both;
+	max-width: 100%; /* Ensure that embeds do not overflow their containers */
+}
+video { /* fluid html5 videos, see http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+	width: 100% !important;
+	height: auto !important;
+}
+img {
+	border: 0; /* Remove border when inside link element in IE 8/9/10 */
+	height: auto; /* Ensure proper vertical scaling when images are responsively reduced horizontally */
+	max-width: 100%; /* Ensure that images do not overflow their containers */
+}
+.wp-audio-shortcode, /* WordPress audio shortcode */
+.wp-playlist, /* WordPress audio playlists */
+.fluidvids { /* Responsive Videos */
+	clear: both;
+}
+/* Images */
+.alignleft {
+	display: inline;
+	float: left;
+	margin: 0 30px 30px 0 !important; /* override inline styling by editor */
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin: 0 0 30px 30px !important; /* override inline styling by editor */
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto !important; /* override inline styling by editor */
+}
+.size-thumbnail,
+.size-medium {
+	max-width: 50%;
+}
+.size-large,
+.size-full {
+	max-width: 100%;
+}
+@media only screen
+and (min-width: 1025px) { /* Desktop */
+	.alignleft {
+		display: inline;
+		float: left;
+		margin: 0 30px 30px 0 !important; /* override inline styling by editor */
+	}
+	.alignright {
+		display: inline;
+		float: right;
+		margin: 0 0 30px 30px !important; /* override inline styling by editor */
+	}
+}
+/* Captions */
+dl.wp-caption,
+figure.wp-caption {
+	background: rgb( 250, 250, 250 ) !important; /* override inline styling by editor */
+}
+.wp-caption.alignleft,
+.wp-caption.alignright {
+	max-width: 50%;
+}
+.wp-caption,
+.wp-caption.aligncenter,
+.wp-caption.alignnone {
+	max-width: 100%;
+}
+.wp-caption img {
+	display: block;
+	max-width: 100%;
+}
+.wp-caption-dd,
+.wp-caption-text {
+	font-size: 14px;
+	font-weight: 400;
+	padding: 8px;
+	text-align: left;
+}
+.rtl .wp-caption-dd,
+.rtl .wp-caption-text {
+	text-align: right;
+}
+/* Galleries */
+.gallery {
+	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
+}
+.gallery:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+.gallery-item {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: rgb( 250, 250, 250 );
+	float: left;
+	margin-right: 1% !important; /* This is needed for inline legacy markup */
+	margin-bottom: 24px !important; /* This is needed for inline legacy markup */
+	margin-bottom: 1.5rem !important; /* This is needed for inline legacy markup */
+	margin-left: 1% !important; /* This is needed for inline legacy markup */
+	max-width: 32%;
+	padding: 4px;
+	width: auto !important; /* This is needed for inline legacy markup */
+}
+.gallery-item img {
+	display: block;
+}
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+.gallery-columns-2 .gallery-item {
+	max-width: 49%;
+}
+.gallery-columns-4 br,
+.gallery-columns-5 br,
+.gallery-columns-6 br,
+.gallery-columns-7 br,
+.gallery-columns-8 br,
+.gallery-columns-9 br {
+	display: none;
+}
+.gallery-columns-1 .gallery-item:nth-of-type(1n),
+.gallery-columns-2 .gallery-item:nth-of-type(2n),
+.gallery-columns-3 .gallery-item:nth-of-type(3n),
+.gallery-columns-4 .gallery-item:nth-of-type(3n),
+.gallery-columns-5 .gallery-item:nth-of-type(3n),
+.gallery-columns-6 .gallery-item:nth-of-type(3n),
+.gallery-columns-7 .gallery-item:nth-of-type(3n),
+.gallery-columns-8 .gallery-item:nth-of-type(3n),
+.gallery-columns-9 .gallery-item:nth-of-type(3n) {
+	margin-right: 0 !important; /* This is needed for inline legacy markup */
+}
+.gallery-columns-1 .gallery-item:nth-of-type(1n+1),
+.gallery-columns-2 .gallery-item:nth-of-type(2n+1),
+.gallery-columns-3 .gallery-item:nth-of-type(3n+1),
+.gallery-columns-4 .gallery-item:nth-of-type(3n+1),
+.gallery-columns-5 .gallery-item:nth-of-type(3n+1),
+.gallery-columns-6 .gallery-item:nth-of-type(3n+1),
+.gallery-columns-7 .gallery-item:nth-of-type(3n+1),
+.gallery-columns-8 .gallery-item:nth-of-type(3n+1),
+.gallery-columns-9 .gallery-item:nth-of-type(3n+1) {
+	clear: left;
+	margin-left: 0 !important; /* This is needed for inline legacy markup */
+}
+@media only screen
+and (min-width : 800px) { /* Tablets and Up */
+	.gallery-columns-4 .gallery-item {
+		max-width: 23.5%;
+	}
+	.gallery-columns-5 .gallery-item {
+		max-width: 18.4%;
+	}
+	.gallery-columns-6 .gallery-item {
+		max-width: 15%;
+	}
+	.gallery-columns-7 .gallery-item {
+		max-width: 12.57142857142857%;
+	}
+	.gallery-columns-8 .gallery-item {
+		max-width: 10.75%;
+	}
+	.gallery-columns-9 .gallery-item {
+		max-width: 9.33333333333333%;
+	}
+	.gallery-columns-4 br,
+	.gallery-columns-5 br,
+	.gallery-columns-6 br,
+	.gallery-columns-7 br,
+	.gallery-columns-8 br,
+	.gallery-columns-9 br {
+		display: block;
+	}
+	.gallery-columns-4 .gallery-item:nth-of-type(3n),
+	.gallery-columns-5 .gallery-item:nth-of-type(3n),
+	.gallery-columns-6 .gallery-item:nth-of-type(3n),
+	.gallery-columns-7 .gallery-item:nth-of-type(3n),
+	.gallery-columns-8 .gallery-item:nth-of-type(3n),
+	.gallery-columns-9 .gallery-item:nth-of-type(3n) {
+		margin-right: 1% !important; /* This is needed for inline legacy markup */
+	}
+	.gallery-columns-4 .gallery-item:nth-of-type(3n+1),
+	.gallery-columns-5 .gallery-item:nth-of-type(3n+1),
+	.gallery-columns-6 .gallery-item:nth-of-type(3n+1),
+	.gallery-columns-7 .gallery-item:nth-of-type(3n+1),
+	.gallery-columns-8 .gallery-item:nth-of-type(3n+1),
+	.gallery-columns-9 .gallery-item:nth-of-type(3n+1) {
+		clear: none;
+		margin-left: 1% !important; /* This is needed for inline legacy markup */
+	}
+	.gallery-columns-4 .gallery-item:nth-of-type(4n),
+	.gallery-columns-5 .gallery-item:nth-of-type(5n),
+	.gallery-columns-6 .gallery-item:nth-of-type(6n),
+	.gallery-columns-7 .gallery-item:nth-of-type(7n),
+	.gallery-columns-8 .gallery-item:nth-of-type(8n),
+	.gallery-columns-9 .gallery-item:nth-of-type(9n) {
+		margin-right: 0 !important; /* This is needed for inline legacy markup */
+	}
+	.gallery-columns-4 .gallery-item:nth-of-type(4n+1),
+	.gallery-columns-5 .gallery-item:nth-of-type(5n+1),
+	.gallery-columns-6 .gallery-item:nth-of-type(6n+1),
+	.gallery-columns-7 .gallery-item:nth-of-type(7n+1),
+	.gallery-columns-8 .gallery-item:nth-of-type(8n+1),
+	.gallery-columns-9 .gallery-item:nth-of-type(9n+1) {
+		clear: left;
+		margin-left: 0 !important; /* This is needed for inline legacy markup */
+	}
+}
+/* Hero */
+.call-to-action {
+	color: #595959;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid rgba( 0, 0, 0, .2 );
+	display: inline-block;
+	padding: 10px 15px;
+	position: relative;
+	text-decoration: none;
+	vertical-align: top;
+}
+/**
+ * 5.0 - Grid
+ *
+ * The theme was designed with a grid that has 12 columns and 11 gutters.
+ * Each grid is 70 pixels wide (max) and each gutter is 30 pixels wide (max).
+ * The maximum width that will be occupied by the theme content in Desktop views is 1170 pixels.
+ */
+.grid { /* 100% */
+	margin: 0 auto;
+	padding-left: 16px;
+	max-width: 1230px;
+}
+.rtl .grid {
+	padding-left: 0;
+	padding-right: 16px;
+}
+.row {
+	clear: both;
+}
+.grid:after,
+.row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+.column {
+	float: left;
+	padding-right: 16px;
+}
+.rtl .column {
+	float: right;
+	padding-right: 0;
+	padding-left: 16px;
+}
+.twelve, .eleven, .ten,
+.nine, .eight, .seven,
+.six, .five, .four,
+.three, .two, .one { /* max 1200 px */
+	width: 100%;
+}
+@media only screen
+and (min-width : 640px) { /* Tablets and Up */
+	.eleven { /* max 1100 px */
+		width: 91.666666666667%;
+	}
+	.ten { /* max 1000 px */
+		width: 83.333333333333%;
+	}
+	.nine { /* max 900 px */
+		width: 75%;
+	}
+	.eight { /* max 800 px */
+		width: 66.666666666667%;
+	}
+	.seven { /* max 700 px */
+		width: 58.333333333333%;
+	}
+	.six { /* max 600 px */
+		width: 50%;
+	}
+	.five { /* max 500 px */
+		width: 41.666666666667%;
+	}
+	.four { /* max 400 px */
+		width: 33.333333333333%;
+	}
+	.three { /* max 300 px */
+		width: 25%;
+	}
+	.two { /* max 200 px */
+		width: 16.666666666667%;
+	}
+	.one { /* max 100 px */
+		width: 8.333333333333%;
+	}
+}
+@media only screen
+and (min-width: 1025px) { /* Desktop */
+	.grid {
+		padding-left: 30px;
+	}
+	.column {
+		padding-right: 30px;
+	}
+}
+.entry-content .grid {
+	padding: 0;
+}
+
+/**
+ * 35.0 - Misc.
+ */
+.notes {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	background: rgb( 250, 250, 250 );
+	padding: 16px;
+	padding: 1rem;
+	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
+}
+
