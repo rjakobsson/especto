@@ -29,10 +29,15 @@
 				<div class="grid">
 					<div class="row">
 						<div class="twelve column">
-							<div class="hero-content">
-								<?php the_content(); ?>
-								<?php edit_post_link( __( 'Edit', 'business-identity' ), '<span class="edit-link">', '</span>' ); ?>
-							</div><!-- .hero-content -->
+							<div class="row">
+								<div class="six column">
+									<div class="hero-content">
+										<?php the_content(); ?>
+										<?php edit_post_link( __( 'Edit', 'business-identity' ), '<span class="edit-link">', '</span>' ); ?>
+									</div><!-- .hero-content -->
+								</div>
+								<div class="six column"></div>
+							</div>
 						</div><!-- .twelve -->
 					</div><!-- .row -->
 				</div><!-- .grid -->

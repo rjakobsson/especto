@@ -663,12 +663,12 @@ input[type="submit"] {
  */
 .grid { /* 100% */
 	margin: 0 auto;
-	padding-left: 16px;
-	max-width: 1230px;
+	padding-left: 0;
+	max-width: 940px;
 }
 .rtl .grid {
 	padding-left: 0;
-	padding-right: 16px;
+	padding-right: 10px;
 }
 .row {
 	clear: both;
@@ -732,12 +732,12 @@ and (min-width : 640px) { /* Tablets and Up */
 }
 @media only screen
 and (min-width: 1025px) { /* Desktop */
-	.grid {
+	/* .grid {
 		padding-left: 30px;
 	}
 	.column {
 		padding-right: 30px;
-	}
+	} */
 }
 .entry-content .grid {
 	padding: 0;
@@ -1348,7 +1348,7 @@ and (min-width : 800px) { /* Tablets and Up */
 		font-weight: 300;
 		padding: 8px 0;
 		position: absolute;
-			left: -999em;
+		left: -999em;
 		width: 200px;
 	}
 	.rtl .main-navigation ul ul {
@@ -1488,7 +1488,7 @@ and (min-width : 800px) { /* Tablets and Up */
 	.rtl .main-navigation ul li:hover > ul {
 		right: auto;
 	}
-	.main-navigation ul li.page_item_has_children:hover:after,
+	/* .main-navigation ul li.page_item_has_children:hover:after,
 	.main-navigation ul li.menu-item-has-children:hover:after {
 		content: '\f500';
 		display: block;
@@ -1506,14 +1506,14 @@ and (min-width : 800px) { /* Tablets and Up */
 		vertical-align: top;
 		text-indent: 30px;
 		z-index: 99999;
-	}
+	} */
 	.main-navigation ul ul li.page_item_has_children:hover:after,
 	.main-navigation ul ul li.menu-item-has-children:hover:after {
 		display: none;
 	}
 	.main-navigation ul li.page_item_has_children ul,
 	.main-navigation ul li.menu-item-has-children ul {
-		margin-top: 13px;
+		margin-top: 1px;
 	}
 	.main-navigation ul ul li.page_item_has_children ul,
 	.main-navigation ul ul li.menu-item-has-children ul {
@@ -1763,15 +1763,15 @@ and (min-width: 1025px) { /* Desktop */
 	margin: 0 0 12px;
 }
 .features .features-title {
-	display: inline-block;
+	/* display: inline-block; */
 	font-size: 38px;
 	font-size: 2.375rem;
 	font-weight: 300;
 	margin-top: 0;
 	margin-bottom: 24px;
 	padding-bottom: 24px;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
+	/* border-bottom-style: solid; */
+	/* border-bottom-width: 1px; */
 }
 .features .label {
 	display: block;
@@ -1808,7 +1808,7 @@ and (min-width: 1025px) { /* Desktop */
 @media only screen
 and (min-width : 640px) { /* Tablets and Up */
 	.features .features-title {
-		max-width: 75%;
+		/* max-width: 75%; */
 	}
 	#page .features .call-to-action {
 		position: absolute;
@@ -3682,7 +3682,7 @@ video { /* fluid html5 videos, see http://css-tricks.com/NetMag/FluidWidthVideo/
 img {
 	border: 0; /* Remove border when inside link element in IE 8/9/10 */
 	height: auto; /* Ensure proper vertical scaling when images are responsively reduced horizontally */
-	max-width: 100%; /* Ensure that images do not overflow their containers */
+	width: 100%; /* Ensure that images do not overflow their containers */
 }
 .wp-audio-shortcode, /* WordPress audio shortcode */
 .wp-playlist, /* WordPress audio playlists */
@@ -4821,7 +4821,7 @@ and (max-device-width : 1024px) {
 	background-color: #ffffff;
 }
 .features .features-title {
-	border-bottom-color: rgba( 0, 0, 0, .1 );
+	/* border-bottom-color: rgba( 0, 0, 0, .1 ); */
 }
 .features .label {
 	color: #a5a5a5;

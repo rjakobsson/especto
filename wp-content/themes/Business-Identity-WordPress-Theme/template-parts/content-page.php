@@ -30,47 +30,48 @@ $post_id          = (int) get_the_ID(); ?>
 <div id="content" class="site-content">
 	<div class="grid">
 		<div class="row">
-			<div class="eight column content-area">
-				<div id="primary">
-					<main id="main" class="site-main" role="main">
-						<?php while ( have_posts() ) : the_post(); ?>
+			<div class="eight column">
+				<div class="content-area">
+					<div id="primary">
+						<main id="main" class="site-main" role="main">
+							<?php while ( have_posts() ) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-								<div class="entry-content">
-									<?php
-										/**
-										 * If the page we're viewing has been chosen as the Features and Services page,
-										 * then hide the content that comes before the <!--more--> tag.
-										 */
-										if ( $features_page_id == $post_id ) {
-											the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'business-identity' ), true );
-										}
-										else {
-											the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'business-identity' ) );
-										}
-										wp_link_pages(
-											array(
-												'before' => '<div class="page-links">' . __( 'Pages:', 'business-identity' ),
-												'after'  => '</div>',
-											)
-										);
-									?>
-								</div><!-- .entry-content -->
-								<?php edit_post_link( __( 'Edit', 'business-identity' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer>' ); ?>
-							</article><!-- #post-## -->
+								<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+									<div class="entry-content">
+										<?php
+											/**
+											 * If the page we're viewing has been chosen as the Features and Services page,
+											 * then hide the content that comes before the <!--more--> tag.
+											 */
+											if ( $features_page_id == $post_id ) {
+												the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'business-identity' ), true );
+											}
+											else {
+												the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'business-identity' ) );
+											}
+											wp_link_pages(
+												array(
+													'before' => '<div class="page-links">' . __( 'Pages:', 'business-identity' ),
+													'after'  => '</div>',
+												)
+											);
+										?>
+									</div><!-- .entry-content -->
+									<?php edit_post_link( __( 'Edit', 'business-identity' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer>' ); ?>
+								</article><!-- #post-## -->
 
-							<?php
-								// If comments are open or we have at least one comment, load up the comment template
-								if ( comments_open() || '0' != get_comments_number() ) :
-									comments_template();
-								endif;
-							?>
+								<?php
+									// If comments are open or we have at least one comment, load up the comment template
+									if ( comments_open() || '0' != get_comments_number() ) :
+										comments_template();
+									endif;
+								?>
 
-						<?php endwhile; ?>
-					</main><!-- #main -->
-				</div><!-- #primary -->
+							<?php endwhile; ?>
+						</main><!-- #main -->
+					</div><!-- #primary -->
+				</div>
 			</div><!-- .eight -->
-
 			<?php get_template_part( 'sidebars/sidebar', 'primary' ); ?>
 		</div><!-- .row -->
 	</div><!-- .grid -->

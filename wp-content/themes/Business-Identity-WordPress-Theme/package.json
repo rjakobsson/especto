@@ -1,0 +1,25 @@
+{
+  "name": "especto-wordpress-theme",
+  "version": "1.0.0",
+  "description": "Especto WordPress Theme",
+  "main": "index.php",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sourcemaps": "^2.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjakobsson/especto.git"
+  },
+  "author": "Robin Jakobsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjakobsson/especto/issues"
+  },
+  "homepage": "https://github.com/rjakobsson/especto#readme"
+}
