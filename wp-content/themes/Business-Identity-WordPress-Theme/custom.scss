@@ -103,10 +103,7 @@ address {
 }
 
 .site-top-content {
-	background-color: #5B2E68;
-	font-size: rem(14px);
-	color: white;
-	padding: 0;
+	display:none;
 }
 
 .site-header {
@@ -623,4 +620,39 @@ input[type=submit]:focus {
 #colophon a {
 	font-size: rem(18px);
 	font-weight:700;
+}
+
+@media only screen and (min-width: 800px) {
+	.main-navigation ul ul {
+		width:auto;
+	}
+	.main-navigation ul ul > li {
+	  padding-left: 35px;
+	  padding-right: 35px;
+	}
+	.main-navigation ul li.page_item_has_children ul, .main-navigation ul li.menu-item-has-children ul {
+		margin-top: 0px;
+		padding-bottom:13px;
+		padding-top:10px;
+	}
+
+	.has-primary-sidebar .site-content .content-area {
+ 		width: 100%;
+	}
+}
+
+#secondary {
+	width: 69.666666%;
+  float: right;
+  padding-left: 0;
+}
+#secondary .widget-title {
+	font-size:24px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+#secondary a {
+	font-weight: 700;
+	display:inline-block;
+	margin-bottom:10px;
 }
