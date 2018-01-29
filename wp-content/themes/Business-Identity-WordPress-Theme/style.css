@@ -3439,7 +3439,7 @@ and (min-width: 1025px) { /* Desktop */
  * @link http://genericons.com
  *
  * @since Business Identity 1.0
- */
+ *//* 
 .social a.github:before         { content: '\f200'; }
 .social a.dribbble:before       { content: '\f201'; }
 .social a.twitter:before        { content: '\f202'; }
@@ -3490,7 +3490,7 @@ and (min-width: 1025px) { /* Desktop */
 .social a[href*="reddit.com"]:before      { content: '\f222'; }
 .social a[href*="stumbleupon.com"]:before { content: '\f223'; }
 .social a[href*="getpocket.com"]:before   { content: '\f224'; }
-.social a[href*="dropbox.com"]:before     { content: '\f225'; }
+.social a[href*="dropbox.com"]:before     { content: '\f225'; } */
 .social li {
 	display: inline-block;
 }

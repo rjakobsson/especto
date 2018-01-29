@@ -387,11 +387,11 @@ address {
 	}
 	
 	.entry-title {
-		border-bottom: 1px solid #cccccc;
+		border-bottom: none;
 		color: #333333;
 		font-size: rem($base-font-size * 2.5);
-		font-weight: 300;
-		line-height: 1.355;
+		font-weight: 700;
+		line-height: 1;
 		margin: 0;
 		margin-bottom: 1.5rem;
 		padding: 0;
@@ -399,9 +399,9 @@ address {
 	
 		a {
 			color: #333333;
-			font-size: rem($base-font-size * 2.5);
-			font-weight: 300;
-			line-height: 1.355;
+			font-size: rem($base-font-size * 1.7);
+			font-weight: 700;
+			line-height: 1;
 			margin: 0;
 			margin-bottom: 1.5rem;
 			padding: 0;
@@ -419,6 +419,15 @@ address {
 	}
 }
 
+.posted-on a {
+	color: #959098;
+	font-size: 15px;
+}
+
+.entry-categories {
+	font-size: rem($base-font-size * 0.8);
+	font-weight:400;
+}
 .contact-map {
 	margin-bottom: 1.687rem;
 }
@@ -479,21 +488,23 @@ address {
 		height: 50px;
 		width: 50px;
 		margin-right: 20px;
+    background-repeat:no-repeat !important;
+    background-color:transparent !important;
 		
 		&.linkedin {
-		background-color: #0077B5;
+      background-image: url('../Business-Identity-WordPress-Theme/images/in.png');
 	}
 	
 	&.facebook {
-		background-color: #3C5A96;
+    background-image: url('../Business-Identity-WordPress-Theme/images/fb.png');
 	}
 	
 	&.twitter {
-		background-color: #55ACEE;
+    background-image: url('../Business-Identity-WordPress-Theme/images/twitter.png');
 	}
 
 	&.instagram {
-		background-color: #517FA3;
+    background-image: url('../Business-Identity-WordPress-Theme/images/instagram.png');
 	}
 	}
 }
@@ -639,6 +650,13 @@ input[type=submit]:focus {
 	.has-primary-sidebar .site-content .content-area {
  		width: 100%;
 	}
+	.blog.has-primary-sidebar .site-content .content-area,
+	.post-template-default.has-primary-sidebar .site-content .content-area {
+ 		width: 66.666666666667%;
+	}
+	.page-template-full-width .site-content .eight {
+		width: 100% !important;
+	}
 }
 
 #secondary {
@@ -655,4 +673,18 @@ input[type=submit]:focus {
 	font-weight: 700;
 	display:inline-block;
 	margin-bottom:10px;
+}
+.site-header .main-navigation .primary-navigation .current_page_item,
+.site-header .main-navigation .primary-navigation .current_page_parent {
+  border-bottom: 3px solid #B370D5;
+  padding-bottom: 23px;
+}
+
+.site-header .main-navigation .primary-navigation .sub-menu .current_page_parent,
+.site-header .main-navigation .primary-navigation .sub-menu .current_page_item {
+	border-bottom:none;
+	padding-bottom: 0;
+}
+address {
+	font-weight:400;
 }
